@@ -12,7 +12,7 @@ update()
 
 //add one to count
 function plusOne (){
-	localStorage.setItem("count",(Number(localStorage.getItem("count"))+5))
+	localStorage.setItem("count",(Number(localStorage.getItem("count"))+25))
 	update()
 }
 
